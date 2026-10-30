@@ -62,12 +62,6 @@ class Bibliotheque
         $resultats = [];
         foreach ($this->livres as $livre) {
             if (stripos($livre->getTitre(), $mot) !== false
-                || stripos($livre->getAuteur(), $mot) !== false) {
-                $resultats[] = $livre;
-            }
-        }
-        return $resultats;
-    }
-}
+ 
 
 

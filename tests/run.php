@@ -14,6 +14,8 @@ function verifier(bool $condition, string $message): void
     }
 }
 
+
+
 foreach (glob(__DIR__ . '/test_*.php') as $fichier) {
     require $fichier;
 }
