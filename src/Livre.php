@@ -78,7 +78,6 @@ class Livre
 
     public function __toString(): string
     {
-        $statut = $this->disponible ? 'Disponible' : 'Emprunte';
-        return "[{$this->isbn}] {$this->titre} par {$this->auteur} ({$statut})";
+        $statut = $this-> {$this->titre} par {$this->auteur} ({$statut})";
     }
 }
